@@ -24,22 +24,22 @@ namespace Labb2ProgTemplate
 
         public bool CheckPassword(string password)
         {
-            return false;
+            throw new NotImplementedException();
         }
 
         public void AddToCart(Product product)
         {
-
+            throw new NotImplementedException();
         }
 
         public void RemoveFromCart(Product product) 
         {
-            
+            throw new NotImplementedException();
         }
         
         public double CartTotal()
         {
-            return 0;
+            throw new NotImplementedException();
         }
     }
 }
